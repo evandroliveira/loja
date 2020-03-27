@@ -160,7 +160,7 @@ function ValidarCPF(Objcpf) {
         $('input#cpf').parent().find('span').remove();
 
         $('input#cpf').addClass('has-error');
-		$('input#cpf').after('<strong><span class="erro col-sm-12"><span>Erro:</span>CPF inválido</span></strong>');
+		$('input#cpf').after('<strong><span class="aviso col-sm-12">Insira um CPF válido!</span></strong>');
 		document.form1.cpf.focus();
     } else {
         $('input#cpf').removeClass('has-error');
@@ -178,7 +178,7 @@ function ValidaCelular(celular) {
 
 	$('input#phone').addClass('has-error');
 	$('input#phone').after('<strong><span style="color:red">N inválido</span></strong>');
-	document.form1.cpf.focus();
+	document.formulario.cpf.focus();
 } else {
 	$('input#phone').removeClass('has-error');
 	$('input#phone').parent().find('span').remove();
@@ -198,3 +198,38 @@ $(function () {
     });
 });
 
+$(function () {
+var behavior = function (val) {
+    return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+},
+options = {
+    onKeyPress: function (val, e, field, options) {
+        field.mask(behavior.apply({}, arguments), options);
+    }
+};
+
+$('.phone').mask(behavior, options);
+})
+
+function validar() {
+    var pass = formulario.pass.value;
+    var rep_senha = formulario.rep_senha.value;
+
+    if(pass == "" || rep_senha.length <=5) {
+        $('input#pass').parent().find('span').remove();
+
+        $('input#pass').addClass('has-error');
+		$('input#pass').after('<strong><span class="erro col-sm-12">Preencha o campo senha com minimo 5 caracteres</span></strong>');
+		document.formulario.pass.focus();
+    }
+
+    if(pass != rep_senha) {
+        $('input#pass').parent().find('span').remove();
+
+        $('input#pass').addClass('has-error');
+		$('input#pass').after('<strong><span class="erro col-sm-12">As senhas estão diferentes</span></strong>');
+        document.formulario.pass.focus();
+        return false;
+    }
+
+}

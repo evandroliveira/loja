@@ -3,6 +3,9 @@ body {
     font-family: 'Open Sans';
     font-size:14px;
 } */
+.erromsg{
+	color: #f30; /* cor do texto */
+ }
 .topnav.navbar {
 	background-color:#f9f9f9;
 	border-bottom:1px solid #e0e0e0;
@@ -650,6 +653,9 @@ span{
 	padding: 2px 20px;
 	border-radius: 10px;
 }
+span .aviso {
+	margin: 10px;
+}
 .erro{
 	background-color: #ffecec;
 	border: 1px solid #f5aca6;
@@ -661,6 +667,13 @@ span{
 .aviso {
 	background-color: #fff8c4;
 	border: 1px solid #f2c779;
+	float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form_pag {
+	width: 100%;
 }
 
 

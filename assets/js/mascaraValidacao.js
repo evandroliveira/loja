@@ -35,7 +35,7 @@ function MascaraCelular(celular) {
     if (mascaraInteiro(celular) == false) {
         event.returnValue = false;
     }
-    return formataCampo(celular, '(00) 00000-0000', event);
+    return formataCampo(celular, '(99)99999-9999', event);
 }
 
 //adiciona mascara ao CPF
@@ -111,7 +111,7 @@ function ValidarCPF(Objcpf) {
         $('input#cpf').parent().find('span').remove();
 
         $('input#cpf').addClass('has-error');
-        $('input#cpf').after('<span style="color:red">CPF inválido</span>');
+        $('input#cpf').after('<span style="color:red;">CPF inválido</span>');
     } else {
         $('input#cpf').removeClass('has-error');
         $('input#cpf').parent().find('span').remove();

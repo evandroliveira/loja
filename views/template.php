@@ -8,19 +8,21 @@
     <title>FORCE BULLS</title>
     
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/plugins/fontawesome-free/css/all.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/dist/css/adminlte.min.css">
-  <!-- Google Font: Source Sans Pro -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.structure.min.css" type="text/css" />
-  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.theme.min.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/plugins/fontawesome-free/css/all.min.css">
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- Theme style -->
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/dist/css/adminlte.min.css">
+	<!-- Google Font: Source Sans Pro -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.structure.min.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.theme.min.css" type="text/css" />
   
-		<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css" type="text/css" />
-		<link href="<?php echo BASE_URL; ?>/assets/images/icon_logo.png" rel="icon"/>
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css" type="text/css" />
+	<link href="<?php echo BASE_URL; ?>/assets/images/icon_logo.png" rel="icon"/>
 
 
-		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>		
+	<!-- <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>		 -->
 		<!-- <script type="text/javascript" src="../assets/js/jquery-1.7.1.min.js"></script> -->
 	</head>
 	<body class="hold-transition layout-top-nav">
@@ -306,14 +308,53 @@
     <!-- jQuery -->
     <script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
-    <script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/jquery-validation/jquery.validate.min.js"></script>
+	<script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/jquery-validation/additional-methods.min.js"></script>
     <!-- AdminLTE App -->
     <script src="<?php echo BASE_URL; ?>assets/adminlte/dist/js/adminlte.min.js"></script>
 		
-		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script>
-				<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.mask.js"></script>
-		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
+		<!-- <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.mask.js"></script>
+	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
+	<script src="<?php echo BASE_URL; ?>assets/adminlte/dist/js/demo.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function () {
+	$.validator.setDefaults({
+		submitHandler: function () {
+		alert( "Form successful submitted!" );
+		}
+	});
+	$('#quickForm').validate({
+		rules: {
+		name: {
+			required: true,
+			name: true,
+		},
+		terms: {
+			required: true
+		},
+		},
+		messages: {
+		name: {
+			required: "Digite seu nome para prosseguir!"
+		}
+		},
+		errorElement: 'span',
+		errorPlacement: function (error, element) {
+		error.addClass('invalid-feedback');
+		element.closest('.form-group').append(error);
+		},
+		highlight: function (element, errorClass, validClass) {
+		$(element).addClass('is-invalid');
+		},
+		unhighlight: function (element, errorClass, validClass) {
+		$(element).removeClass('is-invalid');
+		}
+	});
+	});
+	</script>
 
 	</body>
 </html>
