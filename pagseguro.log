@@ -1,0 +1,274 @@
+
+11/01/2020 14:57:21 PagSeguro.Session[info]: Begin
+11/01/2020 14:57:21 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 14:57:27 PagSeguro.Session[info]: Session ID: 88b5b6085feb4d7184de1eca7efcc9ba
+11/01/2020 15:00:18 PagSeguro.Session[info]: Begin
+11/01/2020 15:00:18 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:00:24 PagSeguro.Session[info]: Session ID: 321b4ab649d04ce99daf04bd7d20de19
+11/01/2020 15:11:21 PagSeguro.Session[info]: Begin
+11/01/2020 15:11:21 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:11:27 PagSeguro.Session[info]: Session ID: 7ea5778964654b689d3a8720a6e7da1a
+11/01/2020 15:20:29 PagSeguro.Session[info]: Begin
+11/01/2020 15:20:29 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:20:35 PagSeguro.Session[info]: Session ID: abd10639435e4340afc1e1b33e1fe5e1
+11/01/2020 15:20:45 PagSeguro.Session[info]: Begin
+11/01/2020 15:20:45 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:20:51 PagSeguro.Session[info]: Session ID: 438d652bcbd4400eb04871b217faae08
+11/01/2020 15:24:22 PagSeguro.Session[info]: Begin
+11/01/2020 15:24:22 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:24:27 PagSeguro.Session[info]: Session ID: b553ff38425349ee8cbdd7afd41879e1
+11/01/2020 15:25:16 PagSeguro.Session[info]: Begin
+11/01/2020 15:25:16 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:25:21 PagSeguro.Session[info]: Session ID: d4a1334f88184ee6866b5c2343f360cd
+11/01/2020 15:26:46 PagSeguro.Session[info]: Begin
+11/01/2020 15:26:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:26:52 PagSeguro.Session[info]: Session ID: 2ab3739f50414e139336790ba31d7d4e
+11/01/2020 15:27:39 PagSeguro.Session[info]: Begin
+11/01/2020 15:27:39 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:27:45 PagSeguro.Session[info]: Session ID: 5ec79f85bcbf4c019d698b1d55444fbb
+11/01/2020 15:28:26 PagSeguro.Session[info]: Begin
+11/01/2020 15:28:26 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:28:32 PagSeguro.Session[info]: Session ID: 9e57eeb7a21c4898b9e4bc74c208c4f6
+11/01/2020 15:29:55 PagSeguro.Session[info]: Begin
+11/01/2020 15:29:55 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:30:00 PagSeguro.Session[info]: Session ID: e65548d4d4824906afc815795c899ad2
+11/01/2020 15:31:24 PagSeguro.Session[info]: Begin
+11/01/2020 15:31:24 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:31:30 PagSeguro.Session[info]: Session ID: e4370435dd0d48f5a61b8e8d31c9bec5
+11/01/2020 15:32:26 PagSeguro.Session[info]: Begin
+11/01/2020 15:32:26 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:32:32 PagSeguro.Session[info]: Session ID: a879e6e6b7774c9ab94e00cd55e7806b
+11/01/2020 15:32:35 PagSeguro.Session[info]: Begin
+11/01/2020 15:32:35 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:32:41 PagSeguro.Session[info]: Session ID: 02db3256d19442bb924052394058c795
+11/01/2020 15:42:58 PagSeguro.Session[info]: Begin
+11/01/2020 15:42:58 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:43:04 PagSeguro.Session[info]: Session ID: 83579d3888f6451cb7dc6b6024048175
+11/01/2020 15:43:30 PagSeguro.Session[info]: Begin
+11/01/2020 15:43:30 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:43:36 PagSeguro.Session[info]: Session ID: 4a7bb58b51ec4c6e8ffbbd810e47374f
+11/01/2020 15:53:16 PagSeguro.Session[info]: Begin
+11/01/2020 15:53:16 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:53:22 PagSeguro.Session[info]: Session ID: 129b24da6d444b239bd7f21551cf4064
+11/01/2020 15:53:56 PagSeguro.Session[info]: Begin
+11/01/2020 15:53:56 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:54:02 PagSeguro.Session[info]: Session ID: 77879a28829f408b810c2a7857685255
+11/01/2020 15:54:53 PagSeguro.Session[info]: Begin
+11/01/2020 15:54:53 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:54:59 PagSeguro.Session[info]: Session ID: 14235e99233343e8abfee94e76949e65
+11/01/2020 15:59:38 PagSeguro.Session[info]: Begin
+11/01/2020 15:59:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 15:59:44 PagSeguro.Session[info]: Session ID: 6fb94b1257404711982543f063da2ba5
+11/01/2020 16:03:05 PagSeguro.Session[info]: Begin
+11/01/2020 16:03:05 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 16:03:11 PagSeguro.Session[info]: Session ID: 01bfe555dc944a72bc4d2b942bdfbed2
+11/01/2020 16:09:41 PagSeguro.Session[info]: Begin
+11/01/2020 16:09:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 16:09:47 PagSeguro.Session[info]: Session ID: d861661bcb7d482cb2b96a00ac35c6d1
+11/01/2020 16:11:38 PagSeguro.Session[info]: Begin
+11/01/2020 16:11:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 16:11:44 PagSeguro.Session[info]: Session ID: fe25204a01c54e0f9ca110a7f077183c
+11/01/2020 16:12:46 PagSeguro.Session[info]: Begin
+11/01/2020 16:12:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 16:12:51 PagSeguro.Session[info]: Session ID: 59db597e15d4442b95cd76c0004c8842
+11/01/2020 16:17:48 PagSeguro.Session[info]: Begin
+11/01/2020 16:17:48 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 16:17:54 PagSeguro.Session[info]: Session ID: b569b754c1a14967b5c843af2982b2c8
+11/01/2020 16:18:38 PagSeguro.Session[info]: Begin
+11/01/2020 16:18:38 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 16:18:44 PagSeguro.Session[info]: Session ID: 47674615403948a19f2986e004d43591
+11/01/2020 16:19:48 PagSeguro.Session[info]: Begin
+11/01/2020 16:19:48 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 16:19:54 PagSeguro.Session[info]: Session ID: d98d9131a1e040079b7d42e27da0f395
+11/01/2020 16:20:41 PagSeguro.Session[info]: Begin
+11/01/2020 16:20:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 16:20:47 PagSeguro.Session[info]: Session ID: c8a5c80a700f44dfa7a6b23f6999e540
+11/01/2020 17:57:14 PagSeguro.Session[info]: Begin
+11/01/2020 17:57:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 17:57:20 PagSeguro.Session[info]: Session ID: 3617f54f8aa540aa97a96f4cb0575c2f
+11/01/2020 18:01:41 PagSeguro.Session[info]: Begin
+11/01/2020 18:01:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:01:47 PagSeguro.Session[info]: Session ID: 0fb1459cdf9e493980e54a1d930a9dc2
+11/01/2020 18:36:17 PagSeguro.Session[info]: Begin
+11/01/2020 18:36:17 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:36:23 PagSeguro.Session[info]: Session ID: 11579976b5e4453bbaf715a2b511b61a
+11/01/2020 18:38:59 PagSeguro.Session[info]: Begin
+11/01/2020 18:38:59 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:39:05 PagSeguro.Session[info]: Session ID: 97c5a0aa3a0341bbac0c1f325afebdfd
+11/01/2020 18:44:32 PagSeguro.Session[info]: Begin
+11/01/2020 18:44:32 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:44:38 PagSeguro.Session[info]: Session ID: a3b36a4e20bc4bc189726e31a1c0ec2c
+11/01/2020 18:45:47 PagSeguro.Session[info]: Begin
+11/01/2020 18:45:47 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:45:53 PagSeguro.Session[info]: Session ID: 47bf0bf0aa7b4ed08fddbc6cbbb89238
+11/01/2020 18:46:26 PagSeguro.Session[info]: Begin
+11/01/2020 18:46:26 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:46:32 PagSeguro.Session[info]: Session ID: dee7514812d74be3a8cafaa6990e4f00
+11/01/2020 18:51:52 PagSeguro.Session[info]: Begin
+11/01/2020 18:51:52 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:51:58 PagSeguro.Session[info]: Session ID: 877db6b7fb4b46699d94639c9f6f9f63
+11/01/2020 18:54:01 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:01 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:07 PagSeguro.Session[info]: Session ID: 4a671bb300344867897976241111e629
+11/01/2020 18:54:07 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:07 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:13 PagSeguro.Session[info]: Session ID: 8b47f5e1d160439a89d2bd2c693c70e1
+11/01/2020 18:54:13 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:19 PagSeguro.Session[info]: Session ID: c4b31d427e5f434591a27c7b74c6f698
+11/01/2020 18:54:19 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:19 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:25 PagSeguro.Session[info]: Session ID: 165d00591f65468aad84e8e598288117
+11/01/2020 18:54:25 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:25 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:31 PagSeguro.Session[info]: Session ID: 768fb757feda430aaba73fa3f52ebb40
+11/01/2020 18:54:31 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:31 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:37 PagSeguro.Session[info]: Session ID: 9c8327d961a8465c8cf0713cfbb4fcf5
+11/01/2020 18:54:37 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:37 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:43 PagSeguro.Session[info]: Session ID: 8c3bc5815ad2433997325a2b1d561fc7
+11/01/2020 18:54:43 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:49 PagSeguro.Session[info]: Session ID: 711fb23516e5428cb7ee97fb14388967
+11/01/2020 18:54:49 PagSeguro.Session[info]: Begin
+11/01/2020 18:54:49 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:54:55 PagSeguro.Session[info]: Session ID: 069dc2f15b5142e59442d2077fed483c
+11/01/2020 18:58:34 PagSeguro.Session[info]: Begin
+11/01/2020 18:58:34 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:58:40 PagSeguro.Session[info]: Session ID: 42154a3929d44d0d872a0c94fe8e0e85
+11/01/2020 18:58:40 PagSeguro.Session[info]: Begin
+11/01/2020 18:58:40 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:58:46 PagSeguro.Session[info]: Session ID: 8a1ba418870c450c8e56e60088b6c394
+11/01/2020 18:58:46 PagSeguro.Session[info]: Begin
+11/01/2020 18:58:46 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:58:52 PagSeguro.Session[info]: Session ID: 45b1b237adac40048024e46380b905a9
+11/01/2020 18:58:52 PagSeguro.Session[info]: Begin
+11/01/2020 18:58:52 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 18:58:58 PagSeguro.Session[info]: Session ID: 4b5f61d6fe0447e28d4a76ab64c63c80
+11/01/2020 19:04:13 PagSeguro.Session[info]: Begin
+11/01/2020 19:04:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:04:19 PagSeguro.Session[info]: Session ID: be75d22a0689494cb7f99e6030486690
+11/01/2020 19:13:19 PagSeguro.Session[info]: Begin
+11/01/2020 19:13:19 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:13:25 PagSeguro.Session[info]: Session ID: 46cd9a100f414ff784a84ada1695702c
+11/01/2020 19:14:48 PagSeguro.Session[info]: Begin
+11/01/2020 19:14:48 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:14:54 PagSeguro.Session[info]: Session ID: 83178050f22c41caa3cd56cf9c4cb445
+11/01/2020 19:20:08 PagSeguro.Session[info]: Begin
+11/01/2020 19:20:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:20:14 PagSeguro.Session[info]: Session ID: 6d0f280990f34d829aa9cf4279918c3d
+11/01/2020 19:21:18 PagSeguro.Session[info]: Begin
+11/01/2020 19:21:18 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:21:24 PagSeguro.Session[info]: Session ID: dbf5d1ed88f84c508f47b19f459a795f
+11/01/2020 19:36:55 PagSeguro.Session[info]: Begin
+11/01/2020 19:36:55 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:37:01 PagSeguro.Session[info]: Session ID: cbad0b4242184d428b8488e173ce9e56
+11/01/2020 19:37:35 PagSeguro.Session[info]: Begin
+11/01/2020 19:37:35 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:37:41 PagSeguro.Session[info]: Session ID: f5878452c05d4abe9c477e2549637b08
+11/01/2020 19:53:44 PagSeguro.Session[info]: Begin
+11/01/2020 19:53:44 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:53:50 PagSeguro.Session[info]: Session ID: b8997d1e053146cc9ffc41c4095af8a7
+11/01/2020 19:55:27 PagSeguro.Session[info]: Begin
+11/01/2020 19:55:27 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:55:33 PagSeguro.Session[info]: Session ID: 3c3bdb6ecd3e42979cc83e28f82a8504
+11/01/2020 19:55:47 PagSeguro.Session[info]: Begin
+11/01/2020 19:55:47 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:55:53 PagSeguro.Session[info]: Session ID: f139e51181cd407d8d59488fbe973c08
+11/01/2020 19:58:48 PagSeguro.Session[info]: Begin
+11/01/2020 19:58:48 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 19:58:54 PagSeguro.Session[info]: Session ID: 7149e57b590c403597116ae814387c89
+11/01/2020 20:00:33 PagSeguro.Session[info]: Begin
+11/01/2020 20:00:33 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+11/01/2020 20:00:39 PagSeguro.Session[info]: Session ID: 500f263e93c941978ee9aa6336fa2e59
+13/01/2020 14:04:39 PagSeguro.Session[info]: Begin
+13/01/2020 14:04:39 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+13/01/2020 14:04:45 PagSeguro.Session[info]: Session ID: 05ef8432fb1145158673224726e1d407
+13/01/2020 19:37:59 PagSeguro.Session[info]: Begin
+13/01/2020 19:37:59 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+13/01/2020 19:38:05 PagSeguro.Session[info]: Session ID: fec3c6697e154d489d5734f6998da67e
+13/01/2020 19:38:16 PagSeguro.Session[info]: Begin
+13/01/2020 19:38:16 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+13/01/2020 19:38:22 PagSeguro.Session[info]: Session ID: addb315a007b4a63b6ddcc5fb16dd283
+13/01/2020 19:52:04 PagSeguro.Session[info]: Begin
+13/01/2020 19:52:04 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+13/01/2020 19:52:10 PagSeguro.Session[info]: Session ID: 0a05efd540e940109162191e81c8705b
+13/01/2020 19:59:06 PagSeguro.Session[info]: Begin
+13/01/2020 19:59:06 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+13/01/2020 19:59:12 PagSeguro.Session[info]: Session ID: 79e5d27c30f5462cbfe5105aa34525d8
+14/01/2020 13:30:44 PagSeguro.Session[info]: Begin
+14/01/2020 13:30:44 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 13:30:50 PagSeguro.Session[info]: Session ID: d4a5aa7f72724618b603230135a0f23b
+14/01/2020 13:31:07 PagSeguro.Session[info]: Begin
+14/01/2020 13:31:07 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 13:31:12 PagSeguro.Session[info]: Session ID: 4aa76bfbaa464022918e4e1dc0a8d4e7
+14/01/2020 17:20:27 PagSeguro.Session[info]: Begin
+14/01/2020 17:20:27 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 17:20:33 PagSeguro.Session[info]: Session ID: 51bdc175f6f24d349eec2f3b9dd06d4a
+14/01/2020 19:55:09 PagSeguro.Session[info]: Begin
+14/01/2020 19:55:09 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 19:55:11 PagSeguro.Session[info]: Session ID: f6d78f8ddb50498bb3f14a09e3509b3e
+14/01/2020 19:55:14 PagSeguro.Session[info]: Begin
+14/01/2020 19:55:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 19:55:15 PagSeguro.Session[info]: Session ID: 527baea20fb9404c9b91f047e92f15f7
+14/01/2020 19:59:04 PagSeguro.Session[info]: Begin
+14/01/2020 19:59:04 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 19:59:05 PagSeguro.Session[info]: Session ID: 8adf8c93a96444c9a99cb220c63af8ac
+14/01/2020 20:02:20 PagSeguro.Session[info]: Begin
+14/01/2020 20:02:20 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 20:02:21 PagSeguro.Session[info]: Session ID: 9a3d68887e82448085d6931ab63807ba
+14/01/2020 20:41:10 PagSeguro.Session[info]: Begin
+14/01/2020 20:41:10 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 20:41:11 PagSeguro.Session[info]: Session ID: 49e56f932fcc4dacbba604729ae3a732
+14/01/2020 20:51:35 PagSeguro.Session[info]: Begin
+14/01/2020 20:51:35 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/01/2020 20:51:36 PagSeguro.Session[info]: Session ID: 5ef5c3d37ba94992b6c698afa8039e94
+16/01/2020 18:52:15 PagSeguro.Session[info]: Begin
+16/01/2020 18:52:15 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+16/01/2020 18:52:17 PagSeguro.Session[info]: Session ID: 1fdb444c4ccc4362ad02a411e1a06f43
+16/01/2020 18:53:11 PagSeguro.Session[info]: Begin
+16/01/2020 18:53:11 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+16/01/2020 18:53:11 PagSeguro.Session[info]: Session ID: 04e5222db701449c8927b4a1292f8016
+16/01/2020 18:53:57 PagSeguro.Session[info]: Begin
+16/01/2020 18:53:57 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+16/01/2020 18:53:59 PagSeguro.Session[info]: Session ID: 7b0d81176a6044b6b4b536f4aff2e789
+17/01/2020 13:18:13 PagSeguro.Session[info]: Begin
+17/01/2020 13:18:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+17/01/2020 13:18:16 PagSeguro.Session[info]: Session ID: fbab9ccf4f264b62b87028f63ad3094e
+17/01/2020 14:42:52 PagSeguro.Session[info]: Begin
+17/01/2020 14:42:52 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+17/01/2020 14:42:53 PagSeguro.Session[info]: Session ID: ece13a893f794410ad4d711c9033a4a2
+17/01/2020 14:43:13 PagSeguro.Session[info]: Begin
+17/01/2020 14:43:13 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+17/01/2020 14:43:13 PagSeguro.Session[info]: Session ID: b82fbf59ec1c40978521c0cfca94559c
+17/01/2020 14:51:15 PagSeguro.Session[info]: Begin
+17/01/2020 14:51:15 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+17/01/2020 14:51:16 PagSeguro.Session[info]: Session ID: 54878f3297f049dfaa7e191a57e95dc6
+18/01/2020 17:33:58 PagSeguro.Session[info]: Begin
+18/01/2020 17:33:58 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+18/01/2020 17:34:00 PagSeguro.Session[info]: Session ID: 3a55adf752a54b728d1efc48fca8f87d
+20/01/2020 14:58:53 PagSeguro.Session[info]: Begin
+20/01/2020 14:58:53 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+20/01/2020 14:58:54 PagSeguro.Session[info]: Session ID: 37579442a8054f20911406059befc34b
+20/01/2020 14:59:17 PagSeguro.Session[info]: Begin
+20/01/2020 14:59:17 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+20/01/2020 14:59:18 PagSeguro.Session[info]: Session ID: 68f795865fd1410ea7c81219d9f21f9a
+23/02/2020 13:39:30 PagSeguro.Session[info]: Begin
+23/02/2020 13:39:30 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+23/02/2020 13:39:30 PagSeguro.Session[error]: CURL can't connect: Could not resolve host: ws.sandbox.pagseguro.uol.com.br
+01/03/2020 14:28:00 PagSeguro.Session[info]: Begin
+01/03/2020 14:28:00 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+01/03/2020 14:28:03 PagSeguro.Session[info]: Session ID: 34e9b8614d3d45b789fa428801df3565
+01/03/2020 14:31:53 PagSeguro.Session[info]: Begin
+01/03/2020 14:31:53 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+01/03/2020 14:31:54 PagSeguro.Session[info]: Session ID: ddab2be13f5b4be795c5c34f70ed86e8
+07/03/2020 12:53:50 PagSeguro.Session[info]: Begin
+07/03/2020 12:53:50 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+07/03/2020 12:53:51 PagSeguro.Session[info]: Session ID: 66410f97e9eb49b09f26bbc6b75e6256
+14/03/2020 10:22:43 PagSeguro.Session[info]: Begin
+14/03/2020 10:22:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/03/2020 10:22:45 PagSeguro.Session[info]: Session ID: 9d79021ea07c4f01b21b5f440b069467
+14/03/2020 10:23:42 PagSeguro.Session[info]: Begin
+14/03/2020 10:23:42 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=evandro_aurelio12%40hotmail.com&token=8B33E4BD190C453FB5C2736EF4B52A8B
+14/03/2020 10:23:42 PagSeguro.Session[info]: Session ID: 588da4a22eb64627b275ca8b550e1030
