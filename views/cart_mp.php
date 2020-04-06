@@ -5,7 +5,7 @@
 <?php if(!empty($error)): ?>
 <div class="col-sm-12">
 	<?php echo "<p id='mensagem'>".$error.'</p>'; ?>
-</div><br><br>
+</div>
 <?php endif; ?>
 
 <!--<div class="col-sm-12">
@@ -52,10 +52,10 @@
               <!-- form start -->
               <form role="form" id="quickForm" method="POST" name="formulario">
                 <div class="card-body">
-
+                  
                   <div class="form-group">
                     <label for="exampleInputName">Nome</label>
-                    <input type="text" name="name" class="form-control" required placeholder="Seu nome completo cowboy!">
+                    <input type="text" name="name" class="form-control" required placeholder="Seu nome completo!">
                   </div>
                   
                   <div class="form-group">
@@ -95,7 +95,7 @@
                     <label for="exampleInputEmail1">CEP</label>
                     <input type="text" name="cep" class="form-control" require placeholder="Informe seu CEP">
                   </div>
-
+                  <input type="hidden" name="admin" value=1>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Cidade</label>
                     <input type="text" name="cidade" class="form-control">
@@ -129,7 +129,7 @@
                   
                 </div>
                 <!-- /.card-body -->
-                <div class="card-footer">
+                <div class="card-footer text-muted mt-3">
                   <input type="submit" value="Efetuar Compra" class="button efetuarCompra" onclick="return validar()"/>
                 </div>
               </form>

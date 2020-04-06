@@ -1,10 +1,16 @@
 <?php
 class cartController extends controller {
 
-	private $user;
+	private $userName;
 
     public function __construct() {
         parent::__construct();
+        // $userName = '';
+        // $u = new users();
+
+        // if(!$u->isLogged($userName)) {
+        //     header("Location: ".BASE_URL."");
+        // }
     }
 
     public function index() {
@@ -103,7 +109,7 @@ class cartController extends controller {
 
     public function payment_redirect() {
 
-        if(!empty($_POST['payment_type'])) {
+        if(!empty($_POST['payment_type']) && !isset($_SESSION['name'])) {
             $payment_type = $_POST['payment_type'];
 
             switch($payment_type) {
@@ -126,10 +132,32 @@ class cartController extends controller {
             }
 
 
+        } elseif(!empty($_POST['payment_type']) && isset($_SESSION['name'])) {            
+            $payment_type = $_POST['payment_type'];
+            switch($payment_type) {
+                case 'checkout_transparente':
+                    header("Location: ".BASE_URL."psckttransparente");
+                    exit;
+                    break;
+                case 'mp':
+                    header("Location: ".BASE_URL."mp_user/client/".$item['id']);
+                    exit;
+                    break;
+                case 'paypal':
+                    header("Location: ".BASE_URL."paypal_user");
+                    exit;
+                    break;
+                case 'boleto':
+                    header("Location: ".BASE_URL."boleto_user");
+                    exit;
+                    break;
+            }
+        } else {
+            header("Location: ".BASE_URL."cart");
+            exit;
         }
 
-        header("Location: ".BASE_URL."cart");
-        exit;
+        
     }
 
 

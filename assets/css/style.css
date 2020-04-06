@@ -108,6 +108,15 @@ header {
 	float:right;
 	margin-top:27px;
 }
+.user_area {
+	margin-top:27px;
+	font-size: 17px;
+	padding-left: 20px;
+}
+.user_img {
+	float:right;
+	margin-top:27px;
+}
 .carticon {
 	width:50px;
 	height:50px;
@@ -659,6 +668,9 @@ span .aviso {
 .erro{
 	background-color: #ffecec;
 	border: 1px solid #f5aca6;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .sucesso {
 	background-color: #e9ffd9;
@@ -674,6 +686,11 @@ span .aviso {
 
 .form_pag {
 	width: 100%;
+}
+
+
+ .filtercontent {
+	width: 88.5%;
 }
 
 

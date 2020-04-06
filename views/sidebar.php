@@ -20,16 +20,19 @@
 			</div>
 
 			<div class="filterbox">
-                <div class="filtertitle">Preço</div>
-                <div class="filtercontent">
+                <div class="filtertitle"><?php $this->lang->get('PRICE'); ?></div>
+				<div class="busca_preco">
+				<div class="filtercontent">
                     <input type="hidden" id="slider0" name="filter[slider0]" value="<?php echo $viewData['filters']['slider0']; ?>">
                     <input type="hidden" id="slider1" name="filter[slider1]" value="<?php echo $viewData['filters']['slider1']; ?>">
                     <p>
-                        <input type="text" id="amount" readonly style="border:0; color:#ea4106; font-weight:bold;">
-                    </p>
-                    
-                    <div id="slider-range"></div>
+						<input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+					</p>
+					
+					<div id="slider-range"></div>
                 </div>
+				</div>
+                
             </div>
 
 			<div class="filterbox">

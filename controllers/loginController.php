@@ -1,5 +1,7 @@
 <?php
 class loginController extends controller {
+	
+	private $user;
 
     public function index() {
         $array = array(
@@ -11,7 +13,7 @@ class loginController extends controller {
 			$_SESSION['errorMsg'] = '';
 		}
 		
-
+		
 		$this->loadView('login', $array);
 	}
 	
@@ -20,9 +22,7 @@ class loginController extends controller {
 			$email = $_POST['email'];
 			$password = $_POST['password'];			
 			
-			$u = new users();
-			$name = $u->isLogged($this->userName);
-			print_r($name);exit;
+			 $u = new users();			
 
 			if($u->validateLogin($email, $password)) {
 				header("Location: ".BASE_URL);
@@ -32,9 +32,7 @@ class loginController extends controller {
 			}
 		} else {
 			$_SESSION['errorMsg'] = 'Preencha os campos abaixo.';
-		}	
-		
-		
+		}		
 		header("Location: ".BASE_URL."login");
 		exit;
 	}
@@ -42,7 +40,9 @@ class loginController extends controller {
 	public function logout() {
 
 		unset($_SESSION['token']);
+		unset($_SESSION['name']);
 		header("Location: ".BASE_URL);
+		exit;
 	}
 
 }

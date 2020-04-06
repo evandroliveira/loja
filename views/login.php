@@ -26,7 +26,7 @@
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Entrar no painel administrador</p>
+      <p class="login-box-msg">Entrar na loja</p>
 
       <?php if(!empty($error)): ?>
 

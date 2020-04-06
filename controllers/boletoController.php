@@ -21,7 +21,7 @@ class boletoController extends controller {
 
 			$name = addslashes($_POST['name']);
 			if(!empty($_POST['cpf'])) {}
-	        $cpf = addslashes($_POST['cpf1']);
+	        $cpf = addslashes($_POST['cpf']);
 	        $telefone = addslashes($_POST['telefone']);
 	        $email = addslashes($_POST['email']);
 	        $pass = addslashes($_POST['pass']);
@@ -40,7 +40,7 @@ class boletoController extends controller {
 	            	$dados['error'] = 'E-mail e/ou senha não conferem.';
 	            }
 	        } else {
-	            $uid = $users->createUser($email, $pass); //Criando um usuário
+	            $uid = $users->createUser($email, $name, $pass, $cpf, $cnpj, $telefone, $cep, $cidade, $estado, $endereco, $numero, $complemento, $bairro); //Criando um usuário
 	        }
 
 	        if(!empty($uid)) {

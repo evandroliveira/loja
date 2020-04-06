@@ -4,14 +4,23 @@ class mpController extends controller {
 	private $user;
 
     public function __construct() {
-        parent::__construct();
+		parent::__construct();
+		// $userName = '';
+		// $u = new users();
+
+        // if(!$u->isLogged($userName)) {
+        //     header("Location: ".BASE_URL."mp_user");
+        // }
+		
     }
 
     public function index() {
     	$store = new store();
     	$users = new users();
     	$cart = new cart();
-    	$purchases = new purchases();
+		$purchases = new purchases();
+		
+		//print_r($_SESSION['name']);exit;
 
         $dados = $store->getTemplateData();
         $dados['error'] = '';
@@ -33,12 +42,12 @@ class mpController extends controller {
 
 	        if($users->emailExists($email)) {
 	            $uid = $users->validate($email, $pass);
-
+				print_r($uid);exit;
 	            if(empty($uid)) {
 	            	$dados['error'] = '<span class="col-sm-12 aviso"><b>Aviso</b>: E-mail e/ou senha não conferem.</span>';
 	            }
 	        } else {
-	            $uid = $users->createUser($email, $pass);
+	            $uid = $users->createUser($email, $name, $pass, $cpf, $telefone, $cep, $cidade, $estado, $rua, $numero, $complemento, $bairro);
 	        }
 
 	        if(!empty($uid)) {
@@ -78,7 +87,7 @@ class mpController extends controller {
 		        	'items' => array(),
 		        	'shipments' => array(
 		        		'mode' => 'custom',
-		        		'cost' => 0.50,//$frete,
+		        		'cost' => $frete,
 		        		'receiver_address' => array(
 		        			'zip_code' => $cep
 		        		)

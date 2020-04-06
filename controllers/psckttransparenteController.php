@@ -86,7 +86,7 @@ class psckttransparenteController extends controller {
                 exit;
             }
         } else {
-            $uid = $users->createUser($email, $pass);
+            $uid = $users->createUser($email, $name, $pass, $cpf, $cnpj, $telefone, $cep, $cidade, $estado, $endereco, $numero, $complemento, $bairro);
         }
 
         //Adicionando a compra no próprio sistema

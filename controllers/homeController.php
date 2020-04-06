@@ -5,14 +5,23 @@ class homeController extends controller {
 
     public function __construct() {
         parent::__construct();
+
+        // $this->user = new users();
+
+        // if(!$this->user->isLogged()) {
+        //     header("Location: ".BASE_URL."login");
+        //     exit;
+        // }
     }
 
     public function index() {
+        $data = array();
+
         $store = new store();
         $products = new products();
         $categories = new categories();
         $f = new filters();
-
+      
         $dados = $store->getTemplateData();
 
         $filters = array();

@@ -8,13 +8,20 @@
     <title>FORCE BULLS</title>
     
     <!-- Font Awesome Icons -->
-	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/plugins/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/plugins/fontawesome-free/css/all.min.css" type="text/css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.min.css" type="text/css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.structure.min.css" type="text/css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.theme.min.css" type="text/css">
 	<!-- Ionicons -->
-	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+   <!-- SweetAlert2 -->
+   <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+  <!-- Toastr -->
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/plugins/toastr/toastr.min.css">
 	<!-- Theme style -->
-	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/dist/css/adminlte.min.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/adminlte/dist/css/adminlte.min.css" type="text/css">
 	<!-- Google Font: Source Sans Pro -->
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.structure.min.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/jquery-ui.theme.min.css" type="text/css" />
   
@@ -25,7 +32,7 @@
 	<!-- <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>		 -->
 		<!-- <script type="text/javascript" src="../assets/js/jquery-1.7.1.min.js"></script> -->
 	</head>
-	<body class="hold-transition layout-top-nav">
+	<body class="hold-transition layout-top-nav  sidebar-mini">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<!--<nav class="navbar topnav">
 			<div class="container">
@@ -47,9 +54,9 @@
 					<div class="col-sm-2 logo">
 						<a href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL; ?>assets/images/logo3.png" /></a>
 					</div>
-					<div class="col-sm-7">
+					<div class="col-sm-6">
 						<div class="head_help">(44) 98462-4635</div>
-						<div class="head_email">forcebulls@<span>forcebulls.com.br</span></div>
+						<div class="head_email">forcebulls@<a href="<?php echo BASE_URL; ?>https://www.forcebulls.com.br">forcebulls.com.br</a></div>
 						
 						<div class="search_area">
 							<form action="<?php echo BASE_URL; ?>busca" method="GET">
@@ -78,7 +85,7 @@
 						    </form>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-sm-1">
 						<a href="<?php echo BASE_URL; ?>cart">
 							<div class="cartarea">
 								<div class="carticon">
@@ -93,7 +100,7 @@
 									} else {
 										?>
 										
-										<span id="cart_price"> <?php echo number_format($_SESSION['total'], 2, ',', '.'); ?></span>
+										<span id="cart_price"> <?php // echo number_format($_SESSION['total'], 2, ',', '.'); ?></span>
 										
 										<?php 
 									}
@@ -106,12 +113,19 @@
 						</a>
 					</div>
 					
-					<!--<div class="col-sm-2">
-						<div class="cartarea">
-							<img src="<?php echo BASE_URL; ?>assets/images/user.png" alt="Usuario">							
-							<a href="<?php echo BASE_URL; ?>login">Acessar</a>
+						<div class="col-sm-3">					
+							<div class="d-block user_area">
+								<img src="<?php echo BASE_URL; ?>assets/images/user.png" alt="Usuario">	
+								<?php if(!isset($_SESSION['name'])): ?>
+									<a href="<?php echo BASE_URL; ?>login" >Acessar</a>
+									ou
+									<a href="#">Cadastrar</a>
+								<?php else: ?>
+									<a href="#"><?php echo $_SESSION['name']; ?></a>
+									<a href="<?php echo BASE_URL; ?>login/logout">Sair</a>
+								<?php endif; ?>
+							</div>
 						</div>
-					</div>-->
 				</div>
 			</div>
     </header>
@@ -151,26 +165,86 @@
               </li>
               
               <?php endforeach; ?>
-          
+			  
         </ul>
         <ul class="nav navbar-nav navbar-right">
-					<li class="nav-item dropdown">
-						<a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><?php $this->lang->get('LANGUAGE'); ?>
-						<span class="caret"></span></a>
-						<ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
-							<li class="nav-item"><a href="<?php echo BASE_URL; ?>lang/set/en" class="nav-link">English</a></li>
-							<li class="nav-item"><a href="<?php echo BASE_URL; ?>lang/set/pt-br" class="nav-link">Português</a></li>
-						</ul>
-					</li>
+			<li class="nav-item dropdown">
+				<a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><?php $this->lang->get('LANGUAGE'); ?>
+				<span class="caret"></span></a>
+				<ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+					<li class="nav-item"><a href="<?php echo BASE_URL; ?>lang/set/en" class="nav-link">English</a></li>
+					<li class="nav-item"><a href="<?php echo BASE_URL; ?>lang/set/pt-br" class="nav-link">Português</a></li>
 				</ul>
+			</li>
+					
+		</ul>
+				
       </div>
 
       
     </div>
   </nav>
-  <!-- /.navbar -->
-
   
+  <!-- /.navbar -->
+  <!-- <div class="modal fade" id="modal-sm">
+  <script>
+      $(document).ready(function(){
+        $('#password').on('input', function() {
+          $('#manda').prop('disabled', $(this).val(). length < 5);
+        })
+      })
+    </script>
+
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Acessar sua conta</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            <form action="<?php echo BASE_URL; ?>login/index_action" method="POST" id="form-login">
+                <div class="input-group mb-3">
+                  <input type="email" name="email" id="email"  class="form-control" placeholder="Email" autofocus>
+                  <div class="input-group-append">
+                    <div class="input-group-text">
+                      <span class="fas fa-envelope"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-group mb-3">
+                  <input type="password" name="password" id="password" class="form-control" require placeholder="Senha">
+                  <div class="input-group-append">
+                    <div class="input-group-text">
+                      <span class="fas fa-lock"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-8">
+                    <div class="icheck-primary">
+                    <p class="mb-1">
+                      <a href="forgot-password.html">Esqueci minha senha</a>
+                    </p>
+                    </div>
+                  </div>
+                  /.col
+                  <div class="col-4">
+                    <button type="submit" id="manda" disabled class="btn btn-primary btn-block">Entrar</button>
+                  </div>
+                /.col
+              </div>
+              
+            </form>
+            </div>
+          </div>
+          /.modal-content
+        </div>
+        /.modal-dialog
+      </div>
+      /.modal
+   -->
 </div>
 <!-- ./wrapper -->		
 		<section>		
@@ -307,18 +381,187 @@
     </script>
     <!-- jQuery -->
     <script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/jquery/jquery.min.js"></script>
+    <!-- <script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/jquery/jquery-ui.min.js"></script> -->
     <!-- Bootstrap 4 -->
-	<script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- SweetAlert2 -->
+  <script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/sweetalert2/sweetalert2.min.js"></script>
+  <!-- Toastr -->
+  <script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/toastr/toastr.min.js"></script>
 	<script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/jquery-validation/jquery.validate.min.js"></script>
 	<script src="<?php echo BASE_URL; ?>assets/adminlte/plugins/jquery-validation/additional-methods.min.js"></script>
     <!-- AdminLTE App -->
     <script src="<?php echo BASE_URL; ?>assets/adminlte/dist/js/adminlte.min.js"></script>
 		
-		<!-- <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/js/jquery.mask.js"></script>
 	<script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js"></script>
-	<script src="<?php echo BASE_URL; ?>assets/adminlte/dist/js/demo.js"></script>
+  <script src="<?php echo BASE_URL; ?>assets/adminlte/dist/js/demo.js"></script>
+  
+	<script type="text/javascript">
+		var BASE_URL = '<?php echo BASE_URL; ?>';
+		<?php if(isset($viewData['filters'])): ?>
+		var maxslider = <?php echo $viewData['filters']['maxslider']; ?>;
+		<?php endif; ?>
+    </script>
+    
+    <script type="text/javascript">
+  $(function() {
+    const Toast = Swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 3000
+    });
+
+    $('.swalDefaultSuccess').click(function() {
+      Toast.fire({
+        type: 'success',
+        title: 'Produto Adicionado com sucesso!.'
+      })
+    });
+    $('.swalDefaultInfo').click(function() {
+      Toast.fire({
+        type: 'info',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultError').click(function() {
+      Toast.fire({
+        type: 'error',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultWarning').click(function() {
+      Toast.fire({
+        type: 'warning',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultQuestion').click(function() {
+      Toast.fire({
+        type: 'question',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+
+    $('.toastrDefaultSuccess').click(function() {
+      toastr.success('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultInfo').click(function() {
+      toastr.info('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultError').click(function() {
+      toastr.error('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultWarning').click(function() {
+      toastr.warning('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+
+    $('.toastsDefaultDefault').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultTopLeft').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'topLeft',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultBottomRight').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'bottomRight',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultBottomLeft').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'bottomLeft',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultAutohide').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        autohide: true,
+        delay: 750,
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultNotFixed').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        fixed: false,
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultFull').click(function() {
+      $(document).Toasts('create', {
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        icon: 'fas fa-envelope fa-lg',
+      })
+    });
+    $('.toastsDefaultFullImage').click(function() {
+      $(document).Toasts('create', {
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        image: '../../dist/img/user3-128x128.jpg',
+        imageAlt: 'User Picture',
+      })
+    });
+    $('.toastsDefaultSuccess').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-success', 
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultInfo').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-info', 
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultWarning').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-warning', 
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultDanger').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-danger', 
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultMaroon').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-maroon', 
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+  });
+
+</script>
+
 	<script type="text/javascript">
 	$(document).ready(function () {
 	$.validator.setDefaults({
@@ -355,6 +598,5 @@
 	});
 	});
 	</script>
-
 	</body>
 </html>

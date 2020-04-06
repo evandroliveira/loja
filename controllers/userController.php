@@ -9,19 +9,41 @@ class usersController extends controller {
 		$this->user = new users();
 
 		if(!$this->user->isLogged()) {
-			header("Location: ".BASE_URL);
+			header("Location: ".BASE_URL."login");
 			exit;
         }
+
+        $this->arrayInfo = array(
+            'user' => $this->user
+        );
 
 	}
 
 	public function index() {
         $users = new users();
         $permissions = new permissions();
+        //FILTRO
+        $this->arrayInfo['filter'] = array('name'=>'', 'permission'=>'');
 
-       
+        if(!empty($_GET['name'])) {
+            $this->arrayInfo['filter']['name'] = $_GET['name'];
+        }
+        if(!empty($_GET['permission'])) {
+            $this->arrayInfo['filter']['permission'] = $_GET['permission'];
+        }
 
-        $this->loadTemplate('home', $this->arrayInfo);
+        //PAGINAÇÃO
+        $this->arrayInfo['pag'] = array('currentpage'=>0, 'total'=>0, 'per_page'=>4);
+        if(!empty($_GET['p'])) {
+            $this->arrayInfo['pag']['currentpage'] = intval($_GET['p']) - 1;
+        }
+
+        $this->arrayInfo['permission_list'] = $permissions->getAllGroups();
+        $this->arrayInfo['list'] = $users->getAll($this->arrayInfo['filter'], $this->arrayInfo['pag']);
+
+        $this->arrayInfo['pag']['total'] = $users->getTotal($this->arrayInfo['filter']);
+
+        $this->loadTemplate('users', $this->arrayInfo);
 
     }
 /*
