@@ -52,6 +52,7 @@ class cartController extends controller {
     public function del($id) {
         if(!empty($id)) {
             unset($_SESSION['cart'][$id]);
+            unset($_SESSION['shipping']);
         }
 
         header("Location: ".BASE_URL."cart");
@@ -74,6 +75,7 @@ class cartController extends controller {
             
             if($_SESSION['cart'][$id] <= 1){
                 unset($_SESSION['cart'][$id]);
+                unset($_SESSION['shipping']);
             }else {
                 $_SESSION['cart'][$id]--;
             }

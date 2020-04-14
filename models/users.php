@@ -100,7 +100,6 @@ class users extends model {
 
         return false;
     }
-
     
 
 	public function emailExists($email) {

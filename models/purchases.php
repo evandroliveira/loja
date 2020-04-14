@@ -1,6 +1,27 @@
 <?php
 class purchases extends model {
 
+	public function getPurchases() {
+		
+		$sql = "SELECT users.id, purchases.id, count(purchases.id_user) as compras
+				FROM users
+				LEFT JOIN purchases ON users.id = purchases.id
+				WHERE id = :id";
+		
+		$sql = $this->db->prepare($sql);
+		$sql->bindValue(':id', $id);
+		$sql->execute();
+
+		if($sql->rowCount() > 0 ) {
+			$array = $sql->fetch();
+
+			$_SESSION['compras'] = $array;
+			return true;
+		}
+
+		return false;
+	}
+
 	public function createPurchase($uid, $total, $payment_type) {
 
 		$sql = "INSERT INTO purchases (id_user, total_amount, payment_type, payment_status) VALUES (:uid, :total, :type, 1)";

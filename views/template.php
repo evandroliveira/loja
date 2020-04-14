@@ -168,14 +168,24 @@
 			  
         </ul>
         <ul class="nav navbar-nav navbar-right">
-			<li class="nav-item dropdown">
+			<!-- <li class="nav-item dropdown">
 				<a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><?php $this->lang->get('LANGUAGE'); ?>
 				<span class="caret"></span></a>
 				<ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
 					<li class="nav-item"><a href="<?php echo BASE_URL; ?>lang/set/en" class="nav-link">English</a></li>
 					<li class="nav-item"><a href="<?php echo BASE_URL; ?>lang/set/pt-br" class="nav-link">Português</a></li>
 				</ul>
+			</li> -->
+			<?php if(isset($_SESSION['name'])): ?>
+			<li class="nav-item dropdown">
+				<a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle"><?php $this->lang->get('ACCOUNT'); ?>
+				<span class="caret"></span></a>
+				<ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow">
+					<li class="nav-item"><a href="<?php echo BASE_URL; ?>conta" class="nav-link">Minha Conta</a></li>
+					<!-- <li class="nav-item"><a href="<?php echo BASE_URL; ?>lang/set/pt-br" class="nav-link">Português</a></li> -->
+				</ul>
 			</li>
+			<?php endif; ?>
 					
 		</ul>
 				

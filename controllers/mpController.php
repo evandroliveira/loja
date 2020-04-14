@@ -20,7 +20,7 @@ class mpController extends controller {
     	$cart = new cart();
 		$purchases = new purchases();
 		
-		//print_r($_SESSION['name']);exit;
+		
 
         $dados = $store->getTemplateData();
         $dados['error'] = '';
